@@ -1,0 +1,15 @@
+/* Responsive */
+
+@media (max-width:900px) {
+  h1{
+    font-size: 30px;
+  }
+
+  .container{
+    padding: 10px;
+  }
+
+  .submit{
+    padding: 5px;
+  }
+}

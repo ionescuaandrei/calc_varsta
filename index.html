@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <title>Calculator vârstă</title>
+</head>
+<body>
+  
+  <main>
+    <h1>Calculează-ţi vârsta</h1>
+    <div class="container">
+    <div class="date-input">
+      <span>Dată naştere : </span>
+      <input type="date" id="dataNastere" class="clearInput">
+    </div>
+
+    <input type= "button" value= "clear" onclick= "clearInput()" class="clear" >
+
+    <ul class="list">
+      <li ><span id="ani" class="ani"></span> Ani</li>
+      <li ><span id="luni" class="luni"></span> Luni</li>
+      <li ><span id="zile" class="zile"></span> Zile</li>
+      <li ><span id="ore" class="ore"></span> Ore</li>
+      <li ><span id="minute" class="minute"></span> Minute</li>
+      <li ><span id="secunde" class="secunde"></span> Secunde</li>
+    </ul>
+
+    <div class="submit-btns">
+      <button class="submit" onclick="calculeaza()">Calculează</button>
+      <button class="submit" onclick="reset()">Reset</button>
+    </div>
+  </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
